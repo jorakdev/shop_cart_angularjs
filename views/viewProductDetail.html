@@ -1,0 +1,4 @@
+<h2>Product Details</h2>
+<!-- on recupère le details du produit correspondant au click avec le filter id -->
+<div ng-repeat="Detail in productDetails | filter: {id: id }">{{Detail.details}}</div><br>
+<a href="/#/viewAllProduct">BACK</a>
